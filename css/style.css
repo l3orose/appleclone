@@ -46,7 +46,7 @@ nav li a {
     padding-top: 50px;
     width: 120%;
 }
-.watches {
+.watches_head {
     display: flex;
     align-items: flex-start;
     padding-top: 20px;
@@ -57,7 +57,7 @@ nav li a {
     grid-template-rows: 50px 50px;
     align-items: flex-start;
 }
-.watches a {
+.watches_head a {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -70,7 +70,7 @@ nav li a {
     width: 90px;
     
 }
-.watches a:hover {
+.watches_head a:hover {
     color: #70a3f0;
 }
 .cajaWatch .os img{
@@ -133,8 +133,70 @@ nav li a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding-top: 100px;
     background-color: #F5F5F7; 
     gap: 30px;
+}
+.watches_description {
+    padding-top: 80px;
+    align-items: center;
+}
+.watches_description h2 {
+    font-size: 50px;
+    margin-bottom: 80px;
+}
+.watches_description_content{
+    display: flex;
+    gap: 50px;   
+}
+.caja_watch {
+    width: 290px;
+    text-align: center;
+}
+.caja_watch h3 {
+    font-size: 23px;
+}
+.caja_watch p {
+    font-size: 14px;
+}
+.watch_img img{
+    width: 200px;
+    margin-bottom: 40px;
+}
+.caja_watch a{
+    display: flex;
+    justify-content: center;
+    font: 14px;
+    gap: 6px;
+    text-decoration: none;
+    margin-bottom: 30px;    
+    border-bottom: 1px solid rgb(214, 214, 214);
+}
+.description {
+    display: grid;
+    grid-template-columns: 290px 290px 290px;
+    gap: 50px;
     
 }
+.description h4 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.description .caja_watch {
+    line-height: 1.5;    
+}
+.description .caja_watch:nth-child(28), .description .caja_watch:nth-child(29),
+.description .caja_watch:nth-child(30){
+    border-bottom: 1px solid rgb(214, 214, 214);
+    padding-bottom: 30px;
+}
+.description .caja_watch p{
+    font-size: 14px;
+}
+.description .caja_watch img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
