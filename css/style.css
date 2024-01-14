@@ -14,7 +14,11 @@
 .no_overflow {
     overflow: hidden;  
 }
-
+.post {
+    display: flex;
+    margin: 0 auto;
+    width: 95%;
+}
 nav ul{
     display: flex;
     justify-content: center;
@@ -104,10 +108,7 @@ nav li a {
     margin-right: 15px;
     text-decoration: none;
 }
-.post2 {
-    display: flex;
-    flex-direction: column;
-    
+.post2 {   
     justify-content: center;
     align-items: center;
     background-color: #F5F5F7; 
@@ -200,3 +201,156 @@ nav li a {
     margin-bottom: 20px;
 }
 
+.comparar_todos {
+    margin: 40px 0;
+    font-size: 26px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.post5 {
+    display: flex;
+    background-color: #F5F5F7; 
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding-top: 40px;
+    margin: 100px auto 0 auto;
+    width: 95%;
+}
+.post5 section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 400px;
+}
+.post5 img {
+    width: 40%;
+}
+.post6 {
+    display: flex;    
+    margin: 40px auto 0 auto;
+    justify-content: center;
+    width: 95%;
+    gap: 40px;
+}
+
+.post6 section {
+    background-color: #F5F5F7; 
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+}
+.post6 img {
+    width: 100%;
+    margin-top: 100px;
+}
+.post6 h5 {
+    font-size: 25px;
+}
+.post6 h3 {
+    font-size: 50px;
+    font-weight: 500;    
+}
+.titulo_solo {
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 50px 0;
+}
+.titulo_solo p{
+    font-size: 50px;
+}
+.post7 {
+    display: flex;
+    background-color: #F5F5F7;    
+    align-items: center;
+    width: 95%;    
+    margin: 0 auto;
+}
+.post7 .contenido {
+    display: flex;
+    padding-top: 80px;
+    align-items: center;
+    background-image: url(https://www.apple.com/co/watch/images/overview/airpods/airpods__cldonwj5wwya_large_2x.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;    
+    width: 1200px;
+    height: 800px;
+}
+.post7 h3 {
+    text-align: center;
+    font-size: 50px;
+}
+.post7 p {
+    font-size: 20px;
+}
+.post8 {
+    display: flex;
+    width: 95%;
+    margin: 0 auto;
+    gap: 40px;     
+}
+.post8 section {
+    display: flex;    
+    align-items: center;
+    text-align: center;
+    background-color: #F5F5F7; 
+    width: 100%;
+    padding-top: 100px;
+}
+.post8 p {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.post8 .enlaces {
+    display: flex;
+    gap: 30px;
+}
+.post8 a {
+    font-size: 20px;    
+}
+.post8 section img:first-child {
+    padding-top: 0;
+    width: 20%;
+}
+.post8 section img{    
+    padding-top: 100px;
+    width: 100%;
+}
+.post9 {
+    width: 95%;
+    margin: 30px auto;
+    padding-top: 90px;
+    background-color: #F5F5F7; 
+    text-align: center;
+    align-items: center;
+}
+.post9 h3 {
+    font-size: 50px;
+}
+.post9 p {
+    font-size: 20px;
+    font-weight: 400;
+}
+.post9 img {
+    margin-top: 70px;
+    width: 55%;
+}
+.normas {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: initial;
+    background-color: #F5F5F7; 
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+}
+.normas ul {
+    width: 80%;
+    list-style: decimal;
+}
+.normas li {
+    font-size: 12px;
+    color: #6C6C6C;
+}
