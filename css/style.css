@@ -19,17 +19,28 @@
     margin: 0 auto;
     width: 95%;
 }
+.mac li:last-child a, .mac li:nth-child(10) a{
+    font-size: 12px;
+    font-weight: 400;
+}
+ul .mac2 li a, .ipad li:last-child a, .ipad li:nth-child(9) a,
+.ipad li:last-child a, .ipad li:nth-child(9) a, .iphone li:last-child a, .iphone li:nth-child(8) a,
+.watch li:last-child a, .watch li:nth-child(7) a 
+{
+    font-size: 12px;
+}
+
+h5 {
+    margin: 0;
+}
 nav ul{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    height: 45px;
+    justify-content: center;    
+    height: 40px;
     gap: 60px;
     background-color: #333333;
     list-style: none;
-    margin: 0;
-}
+    margin: 0;padding-top: 5px;}
 nav li a {
     justify-content: center;
     text-decoration: none;
@@ -37,6 +48,41 @@ nav li a {
     font-weight: 300;    
     color: #d4d4d4;
     width: 100%;
+}
+
+nav .sub1 {
+    display: none;    
+    background-color: #161617;
+    width: 100vw;
+    height: 500px;
+    position: absolute; 
+    justify-items: center;
+    margin-top: 10px;   
+    padding-top: 20px;  
+    padding-left: 180px;  
+    left: 0;
+    gap: 0;
+}
+nav .navigation li:hover > .sub1  {
+    display: flex;    
+}
+
+nav .sub1_content {
+    display: flex;   
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: #161617; 
+    margin-top: 10px;
+    gap: 0;
+    
+}
+nav .sub1_content p{
+    color: #a7a7a7;
+    font-size: 13px;
+}
+nav .sub1_content a{
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .post1 {
@@ -337,20 +383,93 @@ nav li a {
     margin-top: 70px;
     width: 55%;
 }
+footer{
+    background-color: #F5F5F7; 
+}
 .normas {
     display: flex;
     justify-content: center;
     width: 100%;
-    text-align: initial;
-    background-color: #F5F5F7; 
+    text-align: initial;    
     padding-top: 20px;
-    border-bottom: 1px solid black;
+    
 }
 .normas ul {
     width: 80%;
     list-style: decimal;
+    border-bottom: 1px solid rgb(155, 154, 154);
+    padding-bottom: 20px;
 }
-.normas li {
+.normas li, .normas a {
+    font-size: 12px;
+    font-weight: 300;
+    color: #807f7f;
+}
+footer .enlaces_footer {
+    margin: 0 auto;  
+    width: 75%;
+    gap: 20px;
+}
+.cajas_footer {
+    display: flex;        
+    gap: 100px;
+    
+}
+.cajas_footer h5 {
+    font-size: 14px;
+}
+.cajas_footer a {
+    font-size: 13px;
+    text-decoration: none;
+    color: #6C6C6C;
+}
+.caja {
+    width: 160px;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.iphone, .dealer {
+    display: flex;   
+    align-content: center;
+    gap: 5px;
+    margin: 0;
+}
+.dealer {
+    border-bottom: 1px solid rgb(155, 154, 154);
+}
+.iphone img {
+    margin-bottom: 5px;
+}
+.iphone p{
+    font-size: 14px;
+}
+.dealer a , .dealer p{
+    text-decoration: none;
+    font-size: 12px;
+}
+.derechos {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: -20px;
+    gap: 30px;
+}
+.derechos p {
     font-size: 12px;
     color: #6C6C6C;
+    margin: 0;
+}
+.derechos .enlaces a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #6C6C6C;    
+}
+.derechos .enlaces a:nth-child(2) {
+    padding: 0 10px;
+    border-left: 1px solid #6C6C6C;
+    border-right: 1px solid #6C6C6C;
+}
+.derechos .enlaces a:nth-child(3) {
+    margin-right: 210px;
+
 }
